@@ -14,12 +14,7 @@ function Card({ pokemon }) {
         {pokemon.types.map((type) => {
           return (
             // eslint-disable-next-line react/jsx-key
-            <div
-              className={styles.Card__type}
-              style={{ backgroundColor: "#fa2557c4" }}
-            >
-              {type.type.name}
-            </div>
+            <div className={styles.Card__type}>{type.type.name}</div>
           );
         })}
       </div>

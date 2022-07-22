@@ -67,8 +67,8 @@ function App() {
               })}
             </div>
             <div className="btn">
-              <button onClick={prev}>Prev</button>
-              <button onClick={next}>Next</button>
+              {prevUrl && <button onClick={prev}>Prev</button>}
+              {nextUrl && <button onClick={next}>Next</button>}
             </div>
           </>
         )}
