@@ -44,23 +44,22 @@
   margin: 8px 8px;
 }
 .input {
-  width: 200px;
-  height: 35px;
+  width: 260px;
+  height: 45px;
   border-radius: 10px;
   border: 2px solid black;
-  font-size: 17px;
-  padding-left: 10px;
+  font-size: 28px;
   font-family: Georgia, serif;
   text-align: center;
 }
 
 .button {
-  width: 180px;
-  height: 35px;
+  width: 200px;
+  height: 40px;
   margin: 20px;
   border-radius: 10px;
   border: 2px solid black;
-  font-size: 17px;
+  font-size: 23px;
   padding-left: 10px;
   font-family: Georgia, serif;
 }

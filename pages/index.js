@@ -30,6 +30,7 @@ function HomePage({}) {
               className={styles.input}
               onChange={(event) => {
                 setPokemonName(event.target.value);
+                setChoosePokemon(false);
               }}
             />
             <button className={styles.button} onClick={searchPokemon}>
