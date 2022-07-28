@@ -1,4 +1,4 @@
-import styles from "../home/style.module.css";
+import styles from "../home/style.module.scss";
 
 const Pokeinfo = ({ data }) => {
   return (

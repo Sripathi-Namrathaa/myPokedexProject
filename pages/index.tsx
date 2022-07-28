@@ -1,9 +1,9 @@
 import MainNavBar from "../components/main-nav-bar/main-nav-bar";
 import { useState } from "react";
-import styles from "../components/card/card.module.css";
+import styles from "../components/card/card.module.scss";
 import Main from "../components/home/main";
 import Pokeinfo from "../components/home/pokeinfo";
-import style from "../components/home/style.module.css";
+import style from "../components/home/style.module.scss";
 
 function HomePage({}) {
   const [pokemonName, setPokemonName] = useState("");

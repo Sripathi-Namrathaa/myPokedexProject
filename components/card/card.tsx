@@ -1,4 +1,4 @@
-import styles from "../card/card.module.css";
+import styles from "../card/card.module.scss";
 
 function Card({ pokemon }) {
   return (

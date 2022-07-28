@@ -3,7 +3,7 @@ import Card from "./card";
 import Pokeinfo from "./pokeinfo";
 import { useState } from "react";
 import { useEffect } from "react";
-import styles from "../home/style.module.css";
+import styles from "../home/style.module.scss";
 import { getAllPokemon, getPokemon } from "../../services/pokemon";
 const Main = () => {
   const [pokeData, setPokeData] = useState([]);

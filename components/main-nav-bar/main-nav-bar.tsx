@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../main-nav-bar/main-nav-bar.module.css";
+import styles from "../main-nav-bar/main-nav-bar.module.scss";
 function MainNavBar() {
   return (
     <header className={styles.header}>
