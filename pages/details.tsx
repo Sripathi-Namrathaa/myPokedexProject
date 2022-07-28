@@ -48,6 +48,7 @@ function App() {
       })
     );
     setPokemonData(_pokemonData);
+    console.log(_pokemonData);
   };
 
   return (

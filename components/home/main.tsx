@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card";
-import Pokeinfo from "./Pokeinfo";
+import Card from "./card";
+import Pokeinfo from "./pokeinfo";
 import { useState } from "react";
 import { useEffect } from "react";
 import styles from "../home/style.module.css";
