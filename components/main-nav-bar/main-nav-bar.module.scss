@@ -22,6 +22,12 @@
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
+    &:hover {
+      color: #fa255e;
+    }
+    &:active {
+      color: #fa255e;
+    }
   }
 }
 
@@ -30,11 +36,6 @@
   color: black;
   font-weight: bold;
   cursor: pointer;
-}
-
-.header a:hover,
-.header a:active {
-  color: #fa255e;
 }
 
 .badge {

@@ -4,28 +4,17 @@
   padding-top: 30px;
   display: flex;
 }
-.leftcontent,
-.rightcontent {
-  flex-basis: 50%;
-}
+
 .leftcontent {
+  flex-basis: 50%;
   display: grid;
   grid-template-columns: 200px 200px;
   grid-gap: 2rem 8rem;
 }
-.card {
-  width: 300px;
-  background-color: #eed1d6;
-  border-radius: 1rem;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 1.5);
-  padding: 0 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  cursor: pointer;
-}
+
 .rightcontent {
+  flex-basis: 50%;
+
   padding-top: 80px;
   width: 50%;
   text-align: center;
@@ -44,6 +33,19 @@
     font-weight: bold;
     letter-spacing: 1px;
   }
+}
+
+.card {
+  width: 300px;
+  background-color: #eed1d6;
+  border-radius: 1rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 1.5);
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .abilities {
