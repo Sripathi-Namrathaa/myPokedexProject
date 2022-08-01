@@ -5,6 +5,24 @@
   justify-content: space-between;
   background-color: #debcbe;
   padding: 0 10%;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+
+  li {
+    margin-left: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+  }
 }
 
 .logo {
@@ -12,24 +30,6 @@
   color: black;
   font-weight: bold;
   cursor: pointer;
-}
-
-.header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: baseline;
-}
-
-.header li {
-  margin-left: 3rem;
-}
-
-.header a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: black;
 }
 
 .header a:hover,

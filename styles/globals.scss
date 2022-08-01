@@ -27,15 +27,15 @@ a {
   display: flex;
   justify-content: center;
   margin: 20px 0;
-}
 
-.btn button {
-  border-style: none;
-  padding: 5px 10px;
-  margin-right: 10px;
-  border-radius: 5px;
-  background: #fa2557c4;
-  color: #fff;
-  font-size: 1em;
-  cursor: pointer;
+  button {
+    border-style: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background: #fa2557c4;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+  }
 }
